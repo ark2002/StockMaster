@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+
+:root {
+  --primary-color: #408ec6;
+  --secondary-color: #af2f68;
+  --tertiary-color:#1e2761;
+}
+body{
+  margin-top: 0;
+  margin-bottom: 3rem;
+  font-family: 'Trirong', monospace;
+  background-image: linear-gradient(#1e2761, #408ec6);
+  color: var(--primary-color);
+}
+#container {
+  margin: auto;
+  width: 60vw;
+  text-align: center;
+  background-color: rgb(214, 241, 253);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: -4px 3px 19px 2px var(--secondary-color);
+}
+#headImg{
+  max-height: 60vh;
+  max-width: 60vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+}
+.github-repo {
+  text-align: center;
+  color: var(--primary-color);
+  margin-top: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+.github-repo-link {
+  color: var(--primary-color);
+}
+.labelStyle{
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  color: var(--secondary-color);
+}
+.inputStyle{
+  display: block;
+  margin: auto;
+  width: 55%;
+  padding: 0.3125rem 0.3125rem;
+  background-color: #faf2e7;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #00494d;
+  text-align: start;
+  cursor: pointer;
+  box-shadow: 5px 5px 20px rgb(207, 207, 207);
+}
+#check{
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 30%;
+  align-self: center;
+  cursor: pointer;
+  min-width: 25vw;
+  box-shadow: 5px 5px 20px rgb(161, 161, 161);
+}
+h1{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color:white;
+}
+#outputText{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.footer,
+i {
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 2.8rem;
+  margin-top: 5vh;
+  margin-right: 0.6vw;
+  margin-left: 0.6vw;
+}
+#header{
+  text-shadow: 2px 2px 4px black;
+}
+#outputTxt {
+  display: block;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 550;
+  color: var(--secondary-color);
+
+}
